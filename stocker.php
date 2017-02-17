@@ -90,7 +90,7 @@ $name = '*';
 $string = $_SERVER['QUERY_STRING'];
 parse_str($string);
 
-$link = mysql_connect('localhost', 'root', '1234');
+$link = mysql_connect('localhost', 'root', '');
 if (!$link) {
   die(mysql_error());
 }
